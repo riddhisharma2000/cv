@@ -511,7 +511,7 @@ img.pull-right {
   .header.h-transparent2 button.navbar-toggler {
     position: absolute;
     right: 0;
-    top: -50px;
+ 
     padding: 8px 12px;
     font-size: 22px; }
   .header.h-transparent2 .ticket-btn.btn {
@@ -583,6 +583,8 @@ img.pull-right {
 
 @media (min-width: 991px) {
   .header ul.navbar-nav li:hover > .dropdown-menu {
+
+    margin-top: 50px;
     display: block;
     border: none; } }
 
@@ -1694,6 +1696,7 @@ img.pull-right {
     background: #e7015e; }
 
 @media (min-width: 1024px) {
+  
   .box-style {
     padding-bottom: 150px; }
     .box-style .row {
